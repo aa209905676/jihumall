@@ -6,9 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jihumall" />
+        <module name="jihumall-ware" />
+        <module name="jihumall-product" />
+        <module name="jihumall-coupon" />
+        <module name="jihumall-order" />
+        <module name="jihumall-member" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jihumall-coupon" options="-parameters" />
+      <module name="jihumall-member" options="-parameters" />
+      <module name="jihumall-order" options="-parameters" />
+      <module name="jihumall-product" options="-parameters" />
+      <module name="jihumall-ware" options="-parameters" />
+    </option>
   </component>
 </project>

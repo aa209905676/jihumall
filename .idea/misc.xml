@@ -5,6 +5,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jihumall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/gulimall-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/jihumall-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/jihumall-order/pom.xml" />
+        <option value="$PROJECT_DIR$/jihumall-member/pom.xml" />
+        <option value="$PROJECT_DIR$/jihumall-coupon/pom.xml" />
       </list>
     </option>
   </component>
